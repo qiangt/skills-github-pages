@@ -4,7 +4,6 @@ date: 2023-09-09
 ---
 
 1. install a few different versions of the GCC and G++ compilers on Ubuntu 22.04
-
 ```
 $ sudo apt update
 $ sudo apt install build-essential
@@ -12,7 +11,6 @@ $ sudo apt -y install gcc-8 g++-8 gcc-9 g++-9 gcc-10 g++-10
 ```
 
 2. Use the update-alternatives tool to create list of multiple GCC and G++ compiler alternatives:
-   
 ```
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
 $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
@@ -23,7 +21,6 @@ $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
 ```
 
 3. Check the available C and C++ compilers list on your Ubuntu 22.04 system and select desired version by entering relevant selection number
-   
 ```
 $ sudo update-alternatives --config gcc
 There are 3 choices for the alternative gcc (providing /usr/bin/gcc).
