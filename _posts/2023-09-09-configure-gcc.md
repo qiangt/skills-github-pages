@@ -33,5 +33,6 @@ There are 3 choices for the alternative gcc (providing /usr/bin/gcc).
   3            /usr/bin/gcc-9   9         manual mode
 Press  to keep the current choice[*], or type selection number: 
 ```
+
 Do the same for g++
 
