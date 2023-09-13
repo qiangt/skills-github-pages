@@ -10,7 +10,7 @@ $ sudo apt install build-essential
 $ sudo apt -y install gcc-8 g++-8 gcc-9 g++-9 gcc-10 g++-10
 ```
 
-2. Use the update-alternatives tool to create list of multiple GCC and G++ compiler alternatives:
+2. Use the update-alternatives tool to create list of multiple GCC and G++ compiler alternatives
 ```
 $ sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-8 8
 $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-8 8
@@ -29,9 +29,9 @@ There are 3 choices for the alternative gcc (providing /usr/bin/gcc).
 ------------------------------------------------------------
   0            /usr/bin/gcc-9   9         auto mode
   1            /usr/bin/gcc-10  10         manual mode
-\*2            /usr/bin/gcc-8   8         manual mode
+  2            /usr/bin/gcc-8   8         manual mode
   3            /usr/bin/gcc-9   9         manual mode
-Press to keep the current choice[\*], or type selection number: 
+Press to keep the current choice, or type selection number: 
 ```
 
 Do the same for g++
