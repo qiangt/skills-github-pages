@@ -1,0 +1,1 @@
+I am running Ubuntu 22.04 WSL under Windows 11. And I am using VS Code to do run some awesome pytorch3D scripts. However, it took me quite a while to figure out how to display the 3D graph properly with interaction. 
