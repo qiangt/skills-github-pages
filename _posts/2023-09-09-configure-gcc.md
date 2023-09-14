@@ -21,6 +21,7 @@ $ sudo update-alternatives --install /usr/bin/g++ g++ /usr/bin/g++-10 10
 ```
 
 3. Check the available C and C++ compilers list on your Ubuntu 22.04 system and select desired version by entering relevant selection number
+
 ```
 $ sudo update-alternatives --config gcc
 There are 3 choices for the alternative gcc (providing /usr/bin/gcc).
@@ -33,6 +34,5 @@ There are 3 choices for the alternative gcc (providing /usr/bin/gcc).
   3            /usr/bin/gcc-9   9         manual mode
 Press to keep the current choice, or type selection number: 
 ```
-
-Do the same for g++
+4. Configure g++ by using "sudo update-alternatives --config g++"
 
